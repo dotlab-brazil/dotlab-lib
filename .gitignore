@@ -1,0 +1,6 @@
+venv
+.eggs
+.pytest_cache
+build
+*.egg-info
+dist
