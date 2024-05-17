@@ -23,6 +23,15 @@ pip install dotlab-lib
 python3 setup.py pytest
 ```
 
+## Usage
+
+```sh
+from dotlab.balancing import hybrid_sampling
+
+#Exemple usage
+#hybrid_sampling(parameters)
+```
+
 ## Author
 
 👤 **DotLAB Brazil**
