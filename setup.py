@@ -14,7 +14,7 @@ with open(path.join(HERE, 'README.md'), encoding='utf-8') as f:
 setup(
     name='dotlab-lib',
     packages=find_packages(include=['dotlab']),
-    version='1.0.0',
+    version='1.1.0',
     description='DotLAB Library',
     long_description=long_description,
     long_description_content_type="text/markdown",
