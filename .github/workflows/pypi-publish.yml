@@ -32,9 +32,8 @@ jobs:
           pip install -r requirements.txt
       - name: Build package
         run: |
-          sudo apt --fix-broken install
+          pip install setuptools
           pip install wheel
-          apt-get install python3-setuptools
           python setup.py sdist bdist_wheel
       - name: Publish package to Test PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
